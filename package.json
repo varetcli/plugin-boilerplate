@@ -1,0 +1,31 @@
+{
+  "name": "@varet/plugin-boilerplate",
+  "description": "Boilerplate generator for varet plugins",
+  "version": "0.0.1",
+  "type": "module",
+  "author": {
+    "name": "Tarık Yusuf Yıldızcı",
+    "email": "tarikyyildizci@gmail.com",
+    "url": "https://tarikyildizci.com"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write .",
+    "build": "tsc && tsc-alias"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.1.0",
+    "@varet/core": "^0.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "prettier": "^3.3.3",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.6.3"
+  }
+}
